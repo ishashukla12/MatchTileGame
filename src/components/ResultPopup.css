@@ -1,0 +1,27 @@
+/* ResultPopup.css */
+
+.result-popup {
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+.result-popup h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.result-popup p {
+  font-size: 18px;
+  color: #777;
+  margin: 5px 0;
+}
